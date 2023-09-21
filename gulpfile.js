@@ -10,7 +10,7 @@ function buildStyles() {
 }
 
 function watchTask() {
-  watch(["./varian/**/*.scss"], buildStyles);
+  watch(["./varian/**/*.scss", "*.html"], buildStyles);
 }
 
 exports.default = series(buildStyles, watchTask);
