@@ -6,19 +6,19 @@ $info: #f6c31c;
 
 // color palettes
 $colors: (
-    "primary": $primary,
-    "secondary": $secondary,
-    "error": $error,
-    "info": $info,
-    "blueColor": #1919e6,
-    "redColor": #e61919,
-    "yellowColor": #e6e619,
-    "greenColor": #19e635,
-    "orangeColor": #ffa600,
-    "purpleColor": #9900ff,
-    "grayColor": #808080,
-    "blackColor": #181818,
-    "whiteColor": white
+  "primary": $primary,
+  "secondary": $secondary,
+  "error": $error,
+  "info": $info,
+  "blueColor": #1919e6,
+  "redColor": #e61919,
+  "yellowColor": #e6e619,
+  "greenColor": #19e635,
+  "orangeColor": #ffa600,
+  "purpleColor": #9900ff,
+  "grayColor": #808080,
+  "blackColor": black,
+  "whiteColor": white,
 );
 
 // @debug map-get($map: $colors, $key: "purpleColor");
@@ -35,7 +35,7 @@ $base-border-thickness: 1px;
 $base-border-radius: 20px;
 
 //box-shadow
-$base-box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+$base-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
 
 // font sizes
 $base-font-size: 1rem;
